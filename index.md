@@ -37,7 +37,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
-
 <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to
 <a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
@@ -331,7 +330,7 @@ SCHEDULE
 Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
-{% endcomment %}
+
 <h2 id="schedule">Schedule</h2>
 
 {% if site.carpentry == "swc" %}
@@ -343,6 +342,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endif %}
 
 <hr/>
+{% endcomment %}
+
 
 {% comment %}
 SYLLABUS
@@ -360,7 +361,7 @@ the div's with class="row" to balance the multi-column layout.
 This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
-{% endcomment %}
+
 <h2 id="syllabus">Syllabus</h2>
 
 {% if site.carpentry == "swc" %}
@@ -372,6 +373,8 @@ please preview your site before committing, and make sure to run
 {% endif %}
 
 <hr/>
+{% endcomment %}
+
 
 {% comment %}
 SETUP
