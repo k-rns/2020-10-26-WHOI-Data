@@ -170,7 +170,7 @@ address.
 DATE
 
 This block displays the date and links to Google Calendar.
-{% endcomment %}
+
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
@@ -178,6 +178,12 @@ This block displays the date and links to Google Calendar.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
+
+{% endcomment %}
+
+<p id="when">
+  <strong>When:</strong> Four half-day, morning workshops on Mondays and Tuesdays. October 26th and 27th, November 2nd and 3rd.  Each day will start at 9AM and finish at 1PM.  Breaks will be included in the schedule.
+</p>
 
 {% comment %}
 SPECIAL REQUIREMENTS
