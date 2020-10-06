@@ -458,6 +458,7 @@ during the workshop.
 {% include lc/setup.html %}
 {% endif %}
 
+{% include install_instructions/python.html %}
 
 <p>
   To participate in this workshop, you will need an up-to-date web browser and access access to a spreadsheet program (Excel, LibreOffice,...), Python and Jupyter notebooks. In addition you will need an up-to-date web browser. 
