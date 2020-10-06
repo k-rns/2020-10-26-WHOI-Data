@@ -432,3 +432,230 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+
+<h2 id="syllabus">Schedule & Syllabus</h2>
+
+
+This workshop is based on a few workshops developed by the Carpentries (See <a href="https://carpentries.org">https://carpentries.org</a>  for more information about the Carpentries organisation.) and by Joe Futrelle (WHOI):
+<ul>
+  <li><a href=" https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets for Ecologists</a></li>
+  <li><a href="https://datacarpentry.org/python-ecology-lesson/">Data Analysis and Visualization for Ecologists</a></li>
+  <li><a href="https://github.com/WHOIGit/pandas-talk/">Python and the Pandas package-Joe Futrelle (WHOI)</a></li>
+</ul>
+
+<br>
+    
+<h3>Part 1. Preparing your table - Best practices</h3>
+ <table class="table table-striped">
+  <col style="width:5%">
+	<col style="width:15%">
+	<col style="width:30%">
+  <col style="width:15%">
+  <col style="width:35%">
+   <tr> 
+    <td>TIME</td>  
+    <td>SUBJECT</td> 
+    <td>TOPICS COVERED</td> 
+    <td>NOTEBOOK/EXERCISE</td>
+    <td>MORE RESOURCES</td>
+   </tr>
+   <tr> 
+    <td>08:45</td>  
+    <td>Introduction</td> 
+    <td></td> 
+    <td></td>
+    <td></td>
+   </tr>
+   <tr> 
+     <td>09:00</td>  
+     <td>Formatting data tables in Spreadsheets</td> 
+     <td>How do we format data in spreadsheets for effective data use?</td> 
+     <td></td>
+     <td><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/index.html">Carpentries: data table </a></td>
+  </tr>
+  <tr> 
+    <td>09:10</td>  
+    <td>Excercise</td>       
+    <td>How can this table be improved to start analysis in python? Excercise in breakout rooms</td>
+    <td><a href="https://ndownloader.figshare.com/files/2252083">Datatable for exercise</a></td>
+    <td><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/index.html">Carpentries exercise and discussion </a></td>
+  </tr>
+  <tr> 
+    <td>09:35</td>  
+    <td>Date Notation</td> 
+    <td>Good approaches for handling dates in spreadsheets</td> 
+    <td></td>
+    <td><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/03-dates-as-data/index.html">Carpentries: Dates</a></td>
+  </tr>
+  <tr> 
+    <td>09:45</td>  
+    <td>Break</td> 
+    <td>15 minute break</td> 
+    <td></td>
+    <td></td>
+  </tr>
+ </table>
+ 
+ <br>
+ 
+<h3>Part 2. Python and the Pandas library</h3>
+ <table class="table table-striped">
+  <col style="width:5%">
+	<col style="width:15%">
+	<col style="width:30%">
+  <col style="width:15%">
+  <col style="width:35%">
+  <tr> 
+    <td>TIME</td>  
+    <td>SUBJECT</td> 
+    <td>TOPICS COVERED</td> 
+    <td>NOTEBOOK/EXERCISE</td>
+    <td>MORE RESOURCES</td>
+   </tr>
+   <tr> 
+        <td>10:00</td>  
+        <td>Starting with Python</td> 
+        <td>What is Python?<br/>Data types<br/>Mathematical operations<br/>Lists</td> 
+        <td><a href="https://github.com/k-rns/2020-05-22-WHOI-online/blob/gh-pages/data/01_Python%20Basics.ipynb">Notebook: Starting with Python</a></td>
+        <td><a href="https://datacarpentry.org/python-ecology-lesson/00-before-we-start/index.html">Carpentries: Intro to Python I</a><br><a href="https://datacarpentry.org/python-ecology-lesson/01-short-introduction-to-Python/index.html">Carpentries: Intro to Python II</a><br/><a href="https://github.com/WHOIGit/pandas-talk/blob/master/01%20introduction%20to%20python.ipynb">First commands, Notebook Joe Futrelle, WHOI</a></td>
+    </tr>
+    <tr> 
+        <td>10:20</td>  
+        <td>The Pandas Library</td>
+        <td>What is Pandas?<br/>How do I import data<br/>What is a dataframe?<br/>How can I access specific data within my data set?</td>
+        <td><a href="https://github.com/k-rns/2020-05-22-WHOI-online/blob/gh-pages/data/02_Pandas_DataFrames_Series.ipynb">Notebook: The Pandas Library</a></td>
+        <td><a href="https://datacarpentry.org/python-ecology-lesson/02-starting-with-data/index.html">Carpentries: Starting with data</a><br/><a href="https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html">Carpentries: Indexing, Slicing and Subsetting DataFrames in Python</a><br/><a href="https://github.com/WHOIGit/pandas-talk/blob/master/04%20anatomy%20of%20a%20dataframe.ipynb">Anatomy of a DF, Notebook Joe Futrelle, WHOI</a></td>
+    </tr> 
+    <tr> 
+        <td>10:35</td>  
+        <td>Excercise</td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+   </tr>
+   <tr> 
+        <td>10:45</td>  
+        <td>Break</td> 
+        <td>15 minute break</td>
+        <td></td> 
+        <td></td> 
+    </tr>
+ </table>
+
+<br> 
+   
+<h3>Part 3. Further manipulation of a data frame</h3>
+ <table class="table table-striped">
+  <col style="width:5%">
+	<col style="width:15%">
+	<col style="width:30%">
+  <col style="width:15%">
+  <col style="width:35%">
+  <tr> 
+    <td>TIME</td>  
+    <td>SUBJECT</td> 
+    <td>TOPICS COVERED</td> 
+    <td>NOTEBOOK/EXERCISE</td>
+    <td>MORE RESOURCES</td>
+   </tr>
+   <tr> 
+    <td>11:00</td>  
+    <td>Further manipulation of a data frame</td> 
+    <td>Sorting<br/>Unique values<br/>Logical conditions<br/>Summary statistics<br/>Groups<br/>Merging dataframes</td>
+    <td><a href="https://github.com/k-rns/2020-05-22-WHOI-online/blob/gh-pages/data/03_Data_Manipulation.ipynb">Notebook: Further manipulation of a dataframe</a></td> 
+     <td>
+       <a href="https://datacarpentry.org/python-ecology-lesson/02-starting-with-data/index.html">Carpentries: Statistics, groups and basic math</a>
+       <br/><a href="https://datacarpentry.org/python-ecology-lesson/05-merging-data/index.html">Carpentries: Merging data</a>
+       <br/><a href="https://github.com/WHOIGit/pandas-talk/blob/master/05%20querying%20and%20merging%20dataframes.ipynb">Querying and merging DFs, Notebook Joe Futrelle, WHOI</a> 
+     </td> 
+   </tr>
+   <tr> 
+     <td>11:30</td>  
+     <td>Excercise</td> 
+     <td></td>
+     <td></td> 
+     <td></td> 
+   </tr>
+ 
+   <tr> 
+    <td>11:45</td>  
+    <td>Break</td> 
+    <td>15 minute break</td> 
+    <td></td>
+    <td></td> 
+   </tr>
+   <tr> 
+    <td>12:00</td>  
+    <td>Questions?</td> 
+    <td></td> 
+    <td></td>
+    <td></td>
+   </tr>
+   <tr> 
+     <td>12:15</td>  
+     <td>Wrap-up</td> 
+     <td></td> 
+     <td></td> 
+     <td></td> 
+   </tr>
+  </table>
+<br> 
+<h3>Part 4. Extras</h3> 
+<ul>
+  <li> <a href='http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot'>Plotting</a></li>
+  <li> <a href='https://datatofish.com/export-dataframe-to-csv/'>Exporting dataframes</a></li>
+  <li> <a href='https://github.com/WHOIGit/pandas-talk/blob/master/07%20pandas%20handling%20time%20series%20data.ipynb'>Handling time series, Joe Futrelle, WHOI</a></li>
+  <li> <a href='http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3'>Python for data science cheat sheet</a></li>
+</ul>
+<hr/>
+
+{% comment %}
+SETUP
+
+Delete irrelevant sections from the setup instructions.  Each
+section is inside a 'div' without any classes to make the beginning
+and end easier to find.
+
+This is the other place where people frequently make mistakes, so
+please preview your site before committing, and make sure to run
+'tools/check' as well.
+
+
+  {% if site.carpentry == "swc" %}
+  Software Carpentry
+  {% elsif site.carpentry == "dc" %}
+  Data Carpentry
+  {% elsif site.carpentry == "lc" %}
+  Library Carpentry
+  {% endif %}
+  
+  {% if site.carpentry == "swc" %}
+  {% include swc/setup.html %}
+  {% elsif site.carpentry == "dc" %}
+  {% include dc/setup.html %}
+  {% elsif site.carpentry == "lc" %}
+  {% include lc/setup.html %}
+  {% endif %}
+  {% endcomment %}
+
+<h2 id="setup">Setup</h2>
+<p>
+  To participate in this workshop, you will need an up-to-date web browser and access access to a spreadsheet program (Excel, LibreOffice,...), Python and Jupyter notebooks. In addition you will need an up-to-date web browser. 
+</p>
+<p> You only need to install these programs:
+  <ul>
+    <li>A spreadsheet program (Excel is fine, or you can install the open source software LibreOffice)</li>
+    <li>Python and Jupyter notebooks using Anaconda: <a href="https://www.anaconda.com/products/individual#download-section">https://www.anaconda.com/products/individual#download-section</a>  (python 3.7)</li>
+   </ul>
+Detailed set-up instructions for your software can be found <a href="https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">here</a> (Instructions from Data Carpentry Ecology workshops-with Python). But only install a spreadsheet program and python and Jupyter notebooks (through Anaconda).   
+</p>
+
+<p>
+  Please make sure you have installed all the required packages before the start of this workshop. We will be holding an on-line data lab with Stace Beaulieu on May 20 and can help you install the packages if necessary. </p>
+  
+
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
