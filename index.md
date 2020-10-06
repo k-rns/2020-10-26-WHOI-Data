@@ -46,6 +46,7 @@ in a workshop request yet, please also fill in
 to let us know about your workshop and our administrator may contact you if we
 need any extra information.
 </div>
+{% endcomment %}
 
 {% comment %}
 8< ============================= until here ==================
