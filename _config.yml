@@ -44,7 +44,7 @@ flavor: "python"
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
 title: "Data carpentry for oceanographers"
-
+subtitle: "Using python to accelerate research and increase reproducibility"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
