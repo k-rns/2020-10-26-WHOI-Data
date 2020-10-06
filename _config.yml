@@ -43,7 +43,7 @@ flavor: "python"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Data carpentry for oceanographers: <i>Using python to accelerate research and increase reproducibility</i>"
+title: "Data carpentry for oceanographers:<br> <i>Using python to accelerate research and increase reproducibility</i>"
 
 
 #------------------------------------------------------------
