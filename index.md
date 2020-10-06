@@ -460,26 +460,6 @@ during the workshop.
 
 {% include install_instructions/python.html %}
 
-<p>
-  To participate in this workshop, you will need an up-to-date web browser and access access to a spreadsheet program (Excel, LibreOffice,...), Python and Jupyter notebooks. In addition you will need an up-to-date web browser. 
-</p>
-<p> You only need to install these programs:
-  <ul>
-    <li>A spreadsheet program (Excel is fine, or you can install the open source software LibreOffice)</li>
-    <li>Python and Jupyter notebooks using Anaconda: <a href="https://www.anaconda.com/products/individual#download-section">https://www.anaconda.com/products/individual#download-section</a>  (python 3.7)</li>
-   </ul>
-Detailed set-up instructions for your software can be found <a href="https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">here</a> (Instructions from Data Carpentry Ecology workshops-with Python). But only install a spreadsheet program and python and Jupyter notebooks (through Anaconda).   
-</p>
-
-<p>
-  Please make sure you have installed all the required packages before the start of this workshop. We will be holding an on-line data lab with Stace Beaulieu on May 20 and can help you install the packages if necessary. 
-</p>
-
-
-
-
-
-
 
 
 
