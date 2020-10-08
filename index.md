@@ -360,11 +360,11 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 
 
 SYLLABUS
-This workshop is based on a few workshops developed by the Carpentries (See <a href="https://carpentries.org">https://carpentries.org</a>  for more information about the Carpentries organisation.) and by Joe Futrelle (WHOI):
+This workshop is based on a few workshops developed by the Carpentries (See <a href="https://carpentries.org">https://carpentries.org</a>  for more information about the Carpentries organisation.) 
 <ul>
   <li><a href=" https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets for Ecologists</a></li>
   <li><a href="https://datacarpentry.org/python-ecology-lesson/">Data Analysis and Visualization for Ecologists</a></li>
-  <li><a href="https://github.com/WHOIGit/pandas-talk/">Python and the Pandas package-Joe Futrelle (WHOI)</a></li>
+  <li><a href="https://carpentrieslab.github.io/python-aos-lesson/">Python for atmosphere and ocean scientists</a></li>
 </ul>
 
 <br>
