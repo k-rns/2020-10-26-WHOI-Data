@@ -353,13 +353,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 <hr/>
 {% endcomment %}
 
+<h2 id="schedule">SYLLABUS</h2>
 
-
-
-
-
-
-SYLLABUS
 This workshop is based on a few workshops developed by the Carpentries (See <a href="https://carpentries.org">https://carpentries.org</a>  for more information about the Carpentries organisation.) 
 <ul>
   <li><a href=" https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets for Ecologists</a></li>
