@@ -353,7 +353,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 <hr/>
 {% endcomment %}
 
-<h2 id="schedule">SYLLABUS</h2>
+<h2 id="schedule">Syllabus</h2>
 
 This workshop is based on a few workshops developed by the Carpentries (See <a href="https://carpentries.org">https://carpentries.org</a>  for more information about the Carpentries organisation.) 
 <ul>
