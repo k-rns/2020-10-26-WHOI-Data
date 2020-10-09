@@ -284,7 +284,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <hr/>
 
-<h2 id="Why take this course?">Why take this course? </h2>
+<h2 id="why">Why take this course? </h2>
 
 <strong>We\'ll cover:</strong>
 <ul>
