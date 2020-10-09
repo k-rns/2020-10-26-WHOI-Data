@@ -105,7 +105,7 @@ INTRODUCTION
 
 Edit the general explanatory paragraph below if you want to change
 the pitch.
-{% endcomment %}
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -114,21 +114,14 @@ the pitch.
 {% include lc/intro.html %}
 {% endif %}
 
-{% comment %}
-AUDIENCE
-
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
-
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
 {% endcomment %}
 
+<p>
+<a href="https://datacarpentry.org/">Data Carpentry</a> develops and teaches workshops on the fundamental data skills needed to conduct research. Its lessons are domain specific, building on learners' existing knowledge to enable them to quickly apply skills learned to their own research. Participants will be encouraged to help one another and to apply what they have learned to their own research problems.
+</p>
+<p>
+For more information on what we teach and why, please see our paper "<a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510">Good Enough Practices for Scientific Computing</a>".
+</p>
 
 {% comment %}
 LOCATION
@@ -183,12 +176,36 @@ This block displays the date and links to Google Calendar.
 {% endif %}
 
 {% endcomment %}
+{% comment %}
+AUDIENCE
+
+Explain who your audience is.  (In particular, tell readers if the
+workshop is only open to people from a particular institution.
+
+{% endcomment %}
+
+
+<p id="audience">
+  <strong>Audience:</strong>
+This workshop is targeted towards the technical WHOI staff in order to improve project efficiency and build technical skills. It will only be held for 20 people at a time through an online Zoom meeting. Registration is required. Please contact stace@whoi.edu for availability. 
+</p>
+
+<p id="prerequisites">
+  <strong>Prerequisites:</strong>
+To get the most out of this workshop we suggest that participants are already using python for data analysis at a novice or intermediate level.  A strong familiarity with Python syntax and basic constructs such as loops, lists and conditionals (i.e. if statements) is required. Python skills covered will progress from novice to intermediate over the course of the workshop.
+</p>
 
 <p id="when">
   <strong>When:</strong> Four half-day, morning workshops on Mondays and Tuesdays. October 26th and 27th, November 2nd and 3rd.  Each day will start at 8:30AM and finish at 12:30PM.  Breaks will be included in the schedule.
 </p>
 
+<p id="sponsorship">
+<strong>Workshop sponsorship: </strong> DDVPR Technical Staff Training Award
+</p>
+
+
 {% comment %}
+
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
@@ -259,8 +276,6 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
-
-
 {% comment %}
 WHO CAN ATTEND?
 
@@ -283,14 +298,6 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 
 <hr/>
-
-<h2 id="Why take this course?">Why take this course? </h2>
-
-We\`ll cover:
-* Managing tabular data for analysis and reproducibility
-* Improving python skills for data analysis, and visualisation, both for  tabular and grdided data (?)
-* Introducing collaboration and versioning using github and jupyter notebooks. 
-
 
 {% comment%}
 CODE OF CONDUCT
