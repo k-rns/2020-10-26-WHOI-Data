@@ -250,11 +250,13 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+{% comment %}
 <p id="roles">
   <strong>Roles:</strong>
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
+{% endcomment %}
 
 {% comment %}
 WHO CAN ATTEND?
@@ -295,16 +297,25 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p>
 <strong>Managing tabular data for analysis and reproducibility.</strong>
+</p>
+
 <p>
 Good data organization is the foundation of any research project. Most researchers have data in spreadsheets, so it’s the place that many research projects start. 
+</p>
 
-We organize data in spreadsheets in the ways that we as humans want to work with the data, but computers require that data be organized in particular ways. In order to use tools that make computation more efficient, such as programming languages like R or Python, we need to structure our data the way that computers need the data. Since this is where most research projects start, this is where we want to start too!  The concepts learned here also apply more broadly to other tabular formats (e.g. csv and tsv).
+<p>
+We organize data in spreadsheets in the ways that we as humans want to work with the data, but computers require that data be organized in particular ways. In order to use       tools that make computation more efficient, such as programming languages like R or Python, we need to structure our data the way that computers need the data. Since this is where most research projects start, this is where we want to start too!  The concepts learned here also apply more broadly to other tabular formats (e.g. csv and tsv).
+</p>
+
+<p>
 In this lesson, you will learn:
-Good data entry practices - formatting data tables in spreadsheets
-How to avoid common formatting mistakes
-Approaches for handling dates in spreadsheets
-Basic quality control and data manipulation in spreadsheets
-Exporting data from spreadsheets
+<ul>
+  <li>Good data entry practices - formatting data tables in spreadsheets</li>
+  <li>How to avoid common formatting mistakes</li>
+  <li>Approaches for handling dates in spreadsheets</li>
+  <li>Basic quality control and data manipulation in spreadsheets</li>
+  <li>Exporting data from spreadsheets</li>
+</ul>  
 </p>
 
 
