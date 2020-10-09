@@ -106,14 +106,6 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 
-{% if site.carpentry == "swc" %}
-{% include swc/intro.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
-
 {% endcomment %}
 
 <h2 id="Why take this course?">Why take this course? </h2>
