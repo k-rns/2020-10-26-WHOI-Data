@@ -286,6 +286,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 
 <h2 id="Why take this course?">Why take this course? </h2>
+<p>
 <strong>We'll cover:</strong>
 <ul>
   <li>Managing tabular data for analysis and reproducibility</li>
