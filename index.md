@@ -108,14 +108,6 @@ the pitch.
 
 {% endcomment %}
 
-<h2 id="Why take this course?">Why take this course? </h2>
-<p id="why">
-<strong>We\`ll cover:</strong>
-* Managing tabular data for analysis and reproducibility
-* Improving python skills for data analysis, and visualisation, both for tabular and grdided data
-* Introducing collaboration and versioning using github and jupyter notebooks.
-</p>
-
 {% comment %}
 LOCATION
 
@@ -289,11 +281,24 @@ Edit the text to match who can attend the workshop. For instance:
 <p id="sponsorship">
 <strong>Workshop sponsorship: </strong> DDVPR Technical Staff Training Award
 </p>
+
+<hr/>
+
+<h2 id="Why take this course?">Why take this course? </h2>
+
+<strong>We\'ll cover:</strong>
+<ul>
+  <li>Managing tabular data for analysis and reproducibility</li>
+  <li>Improving python skills for data analysis, and visualisation, both for tabular and grdided data</li>
+  <li>Introducing collaboration and versioning using github and jupyter notebooks.</li>
+</ul>
+
 <hr/>
 
 <h2 id="about-data-carpentries">About Data Carpentries</h2>
 <p><a href="https://datacarpentry.org/">Data Carpentry</a> develops and teaches workshops on the fundamental data skills needed to conduct research. Its lessons are domain specific, building on learners' existing knowledge to enable them to quickly apply skills learned to their own research. Participants will be encouraged to help one another and to apply what they have learned to their own research problems.
 </p>
+
 <p>
 For more information on what we teach and why, please see our paper "<a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510">Good Enough Practices for Scientific Computing</a>".
 </p>
