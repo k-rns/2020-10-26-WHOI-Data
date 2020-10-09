@@ -330,7 +330,6 @@ Python is rapidly emerging as the programming language of choice for data  analy
 <p>
 We will be taking this to a next level, introducing tools to increase collaboration, ensure code provenance and lower mistakes with documentation, and use versioning to not save a thousand copies of your code.
 </p>
-</p>
 
 
 <hr/>
