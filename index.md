@@ -114,20 +114,6 @@ the pitch.
 {% include lc/intro.html %}
 {% endif %}
 
-{% comment %}
-AUDIENCE
-
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
-
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
-{% endcomment %}
 
 
 {% comment %}
@@ -183,12 +169,36 @@ This block displays the date and links to Google Calendar.
 {% endif %}
 
 {% endcomment %}
+{% comment %}
+AUDIENCE
+
+Explain who your audience is.  (In particular, tell readers if the
+workshop is only open to people from a particular institution.
+
+{% endcomment %}
+
+
+<p id="audience">
+  <strong>Audience:</strong>
+This workshop is targeted towards the technical WHOI staff in order to improve project efficiency and build technical skills. It will only be held for 20 people at a time through an online Zoom meeting. Registration is required. Please contact stace@whoi.edu for availability. 
+</p>
+
+<p id="prerequisites">
+  <strong>Prerequisites:</strong>
+To get the most out of this workshop we suggest that participants are already using python for data analysis at a novice or intermediate level.  A strong familiarity with Python syntax and basic constructs such as loops, lists and conditionals (i.e. if statements) is required. Python skills covered will progress from novice to intermediate over the course of the workshop.
+</p>
 
 <p id="when">
   <strong>When:</strong> Four half-day, morning workshops on Mondays and Tuesdays. October 26th and 27th, November 2nd and 3rd.  Each day will start at 8:30AM and finish at 12:30PM.  Breaks will be included in the schedule.
 </p>
 
+<p id="sponsorship">
+<strong>Workshop sponsorship: </strong> DDVPR Technical Staff Training Award
+</p>
+
+
 {% comment %}
+
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
