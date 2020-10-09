@@ -115,9 +115,9 @@ the pitch.
 {% endif %}
 
 {% endcomment %}
-<p id="why">
-<h2 id="Why take this course?">Why take this course? </h2>
 
+<h2 id="Why take this course?">Why take this course? </h2>
+<p id="why">
 <strong>We\`ll cover:</strong>
 * Managing tabular data for analysis and reproducibility
 * Improving python skills for data analysis, and visualisation, both for tabular and grdided data
