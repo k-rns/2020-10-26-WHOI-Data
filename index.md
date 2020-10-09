@@ -293,6 +293,30 @@ Edit the text to match who can attend the workshop. For instance:
   <li>Introducing collaboration and versioning using github and jupyter notebooks.</li>
 </ul>
 
+<p>
+<strong>Managing tabular data for analysis and reproducibility.</strong>
+
+Good data organization is the foundation of any research project. Most researchers have data in spreadsheets, so it’s the place that many research projects start. 
+
+We organize data in spreadsheets in the ways that we as humans want to work with the data, but computers require that data be organized in particular ways. In order to use tools that make computation more efficient, such as programming languages like R or Python, we need to structure our data the way that computers need the data. Since this is where most research projects start, this is where we want to start too!  The concepts learned here also apply more broadly to other tabular formats (e.g. csv and tsv).
+In this lesson, you will learn:
+Good data entry practices - formatting data tables in spreadsheets
+How to avoid common formatting mistakes
+Approaches for handling dates in spreadsheets
+Basic quality control and data manipulation in spreadsheets
+Exporting data from spreadsheets
+
+<strong>Improving python skills for data analysis and visualization.</strong>
+
+Python is rapidly emerging as the programming language of choice for data  analysis in the atmosphere and ocean sciences. By consulting online tutorials and help pages, most researchers in this community are able to pick up the basic syntax and programming constructs (e.g. loops, lists and conditionals). This self-taught knowledge is sufficient to get work done, but it often involves spending hours to do things that should take minutes, reinventing a lot of wheels, and a nagging uncertainty at the end of it all regarding the reliability and reproducibility of the results. To help address these issues, these Data Carpentry lessons cover a suite of programming and data management best practices that aren’t so easy to glean from a quick Google search.
+
+<strong>Introducing collaboration and versioning using github and jupyter notebooks.</strong>
+
+We will be taking this to a next level, introducing tools to increase collaboration, ensure code provenance and lower mistakes with documentation, and use versioning to not save a thousand copies of your code.
+</p>
+
+
+
 <hr/>
 
 <h2 id="about-data-carpentries">About Data Carpentries</h2>
