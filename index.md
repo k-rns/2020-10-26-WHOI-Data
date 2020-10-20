@@ -725,6 +725,8 @@ please preview your site before committing, and make sure to run
   {% include lc/setup.html %}
   {% endif %}
   {% endcomment %}
+  
+{% include dc/schedule_oswn.html %} 
 
 <h2 id="setup">Setup</h2>
 <p>
