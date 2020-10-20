@@ -425,6 +425,10 @@ This workshop is based on a few workshops developed by the Carpentries (See <a h
 </ul>
 
 <br>
+
+
+{% include dc/schedule_oswn.html %} 
+
 {% comment %}    
 
 Show what topics will be covered.
@@ -544,8 +548,9 @@ and end easier to find.
 This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
+{% endcomment %}
 
-
+  {% comment %}
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
