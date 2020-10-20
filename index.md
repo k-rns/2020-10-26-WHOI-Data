@@ -534,7 +534,6 @@ This workshop is based on a few workshops developed by the Carpentries (See <a h
 <br>
 
 
-
 {% comment %}
 SETUP
 
@@ -562,7 +561,7 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   {% include lc/setup.html %}
   {% endif %}
-{% endcomment %}
+  {% endcomment %}
   
 
 
@@ -591,4 +590,3 @@ Detailed set-up instructions for your software can be found <a href="https://dat
 {% endcomment %}
 
 
-{% include dc/schedule_oswn.html %} 
