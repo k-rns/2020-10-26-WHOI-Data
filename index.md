@@ -726,7 +726,7 @@ please preview your site before committing, and make sure to run
   {% endif %}
   {% endcomment %}
   
-{% include dc/schedule_oswn.html %} 
+
 
 <h2 id="setup">Setup</h2>
 <p>
@@ -751,3 +751,6 @@ Detailed set-up instructions for your software can be found <a href="https://dat
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 {% endcomment %}
+
+
+{% include dc/schedule_oswn.html %} 
