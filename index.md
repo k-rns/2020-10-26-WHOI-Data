@@ -592,6 +592,6 @@ Detailed set-up instructions for your software can be found <a href="https://dat
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-{% endcomment %}
+
 
 
