@@ -502,6 +502,7 @@ If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
 to include the relevant installation instrucctions.
 {% endcomment %}
+
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
@@ -523,7 +524,7 @@ during the workshop.
 
 
 
-
+{% comment %}
 
 <h2 id="syllabus">Schedule & Syllabus</h2>
 
@@ -536,6 +537,8 @@ This workshop is based on a few workshops developed by the Carpentries (See <a h
 </ul>
 
 <br>
+{% endcomment %}
+
 
 
 {% comment %}
