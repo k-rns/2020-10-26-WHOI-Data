@@ -482,14 +482,11 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  workshop, you will need access to the software described below (Zoom, Python, Jupyter notebooks). In addition you will need an up-to-date web browser and access access to a spreadsheet program (Excel, LibreOffice,...),
 </p>
+
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  We maintain a list of common issues that occur during installation as a reference for instructors that may be useful on the <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
 {% comment %}
@@ -523,78 +520,8 @@ during the workshop.
 {% include install_instructions/python.html %}
 
 
-
-{% comment %}
-
-<h2 id="syllabus">Schedule & Syllabus</h2>
-
-
-This workshop is based on a few workshops developed by the Carpentries (See <a href="https://carpentries.org">https://carpentries.org</a>  for more information about the Carpentries organisation.) and by Joe Futrelle (WHOI):
-<ul>
-  <li><a href=" https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets for Ecologists</a></li>
-  <li><a href="https://datacarpentry.org/python-ecology-lesson/">Data Analysis and Visualization for Ecologists</a></li>
-  <li><a href="https://github.com/WHOIGit/pandas-talk/">Python and the Pandas package-Joe Futrelle (WHOI)</a></li>
-</ul>
-
-<br>
-{% endcomment %}
-
-
-
-{% comment %}
-SETUP
-
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
-
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-
-  {% comment %}
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  
-  {% if site.carpentry == "swc" %}
-  {% include swc/setup.html %}
-  {% elsif site.carpentry == "dc" %}
-  {% include dc/setup.html %}
-  {% elsif site.carpentry == "lc" %}
-  {% include lc/setup.html %}
-  {% endif %}
-  {% endcomment %}
   
 
-
-<h2 id="setup">Setup</h2>
-<p>
-  To participate in this workshop, you will need an up-to-date web browser and access access to a spreadsheet program (Excel, LibreOffice,...), Python and Jupyter notebooks. In addition you will need an up-to-date web browser. 
-</p>
-<p> You only need to install these programs:
-  <ul>
-    <li>A spreadsheet program (Excel is fine, or you can install the open source software LibreOffice)</li>
-    <li>Python and Jupyter notebooks using Anaconda: <a href="https://www.anaconda.com/products/individual#download-section">https://www.anaconda.com/products/individual#download-section</a>  (python 3.7)</li>
-   </ul>
-Detailed set-up instructions for your software can be found <a href="https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">here</a> (Instructions from Data Carpentry Ecology workshops-with Python). But only install a spreadsheet program and python and Jupyter notebooks (through Anaconda).   
-</p>
-
-<p>
-  Please make sure you have installed all the required packages before the start of this workshop. We will be holding an on-line data lab with Stace Beaulieu on May 20 and can help you install the packages if necessary. 
-</p>
-  
-
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
 
 
 
