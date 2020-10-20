@@ -520,7 +520,7 @@ during the workshop.
 
 
 
-{% comment %}
+
 <h2 id="syllabus">Schedule & Syllabus</h2>
 
 
@@ -532,7 +532,7 @@ This workshop is based on a few workshops developed by the Carpentries (See <a h
 </ul>
 
 <br>
-    
+{% comment %}    
 <h3>Part 1. Preparing your table - Best practices</h3>
  <table class="table table-striped">
   <col style="width:5%">
