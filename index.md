@@ -519,6 +519,9 @@ during the workshop.
 
 {% include install_instructions/python.html %}
 
+<h2>Setup for Week 2</h2>
+
+{% include install_instructions/shell.html %}
 {% include install_instructions/git.html %}
 
 
