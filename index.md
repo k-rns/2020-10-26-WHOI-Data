@@ -471,7 +471,7 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Setup for Week 1 (Days 1 and 2)</h2>
 
 <p>
   To participate in a
@@ -519,7 +519,7 @@ during the workshop.
 
 {% include install_instructions/python.html %}
 
-<h2>Setup for Week 2</h2>
+<h2>Setup for Week 2 (Days 3 and 4)</h2>
 
 {% include install_instructions/shell.html %}
 {% include install_instructions/git.html %}
