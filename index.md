@@ -524,9 +524,27 @@ during the workshop.
 {% include install_instructions/shell.html %}
 {% include install_instructions/git.html %}
 
+<h3>Installing required packages</h3>
+
 
   
+<h3>Data</h3>
 
+<p>In preparation for these lessons,you will need to download the following two Python scripts and four netCDF files
+and place them in a new folder/directory:</p>
+
+<ol>
+  <li>Make a new folder in your Desktop called `data-carpentry` if you haven't already.</li>
+  <li>Download <a href="https://carpentrieslab.github.io/python-aos-lesson/code/script_template.py">script_template.py</a> and <a href="https://carpentrieslab.github.io/python-aos-lesson/code/plot_precipitation_climatology.py">plot_precipitation_climatology.py</a> and move them into that folder.</li>
+  <li>Make a new folder in your `data-carpentry` folder called `data` if you haven't already.</li>
+  <li>Download the following files and place them in that folder:</li>
+<ul>
+     <li><a href="https://carpentrieslab.github.io/python-aos-lesson/data/pr_Amon_ACCESS1-3_historical_r1i1p1_200101-200512.nc">pr_access_file</a></li>
+     <li><a href="https://carpentrieslab.github.io/python-aos-lesson/data/pr_Amon_CSIRO-Mk3-6-0_historical_r1i1p1_200101-200512.nc">pr_csiro_file</a></li>
+     <li><a href="https://carpentrieslab.github.io/python-aos-lesson/data/sftlf_fx_ACCESS1-3_historical_r0i0p0.nc">sftlf_access_file</a></li>
+     <li><a href="https://carpentrieslab.github.io/python-aos-lesson/data/sftlf_fx_CSIRO-Mk3-6-0_historical_r0i0p0.nc">sftlf_csiro_file</a></li>
+  </ul>
+</ol>
 
 
 
