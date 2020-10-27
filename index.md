@@ -531,7 +531,7 @@ during the workshop.
 <p>To Install the packages in the base conda environment:</p>
 
 <p><code>conda install jupyter xarray netCDF4 cartopy</code></p>
-<p><code>conda install -c conda-forge cmocean cmdline_provenance</code></p>
+<p><code>conda install -c conda-forge cmocean cmdline_provenance plotnine</code></p>
   
 <h3>Data</h3>
 
