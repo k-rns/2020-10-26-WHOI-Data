@@ -535,7 +535,8 @@ during the workshop.
 <p>Run the following commands.  It may take a few minutes to respond during this process.  You will be asked if you would like to install the packages after they are found.  Press Yes (y)</p>
 <p><code>conda install jupyter xarray netCDF4 cartopy</code></p>
 <p><code>conda install -c conda-forge cmocean cmdline_provenance plotnine</code></p>
-  
+<p>You should see messages for Preparing, Verifying, and Executing the "transaction" and end with a line that says <code>done</code></p>
+
 <h3>Data</h3>
 
 <p>In preparation for these lessons,you will need to download the following two Python scripts and four netCDF files
