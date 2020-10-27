@@ -530,6 +530,9 @@ during the workshop.
 
 <p>To Install the packages in the base conda environment:</p>
 
+<p>Enter <code>conda activate base</code> and press enter to execute. This makes sure you are in your base environment. It won't hurt anything if you already are in base abd run it anyway.  You should see <code> (base)</code> at the beginning of your line.</p>
+
+<p>Run the following commands.  It may take a few minutes to respond during this process.  You will be asked if you would like to install the packages after they are found.  Press Yes (y)</p>
 <p><code>conda install jupyter xarray netCDF4 cartopy</code></p>
 <p><code>conda install -c conda-forge cmocean cmdline_provenance plotnine</code></p>
   
