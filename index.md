@@ -537,6 +537,19 @@ during the workshop.
 <p><code>conda install -c conda-forge cmocean cmdline_provenance plotnine</code></p>
 <p>You should see messages for Preparing, Verifying, and Executing the "transaction" and end with a line that says "done"</p>
 
+<h3>Testing your installs</h3>
+<p>To check your install was successful and you can use the packages within a notebook, you can enter the following into a jupyter notebook cell and run it. You should be able to execute the cell without an error.
+
+<code>
+import xarray as xr
+import cartopy.crs as ccrs
+import matplotlib.pyplot as plt
+import numpy as np
+import cmocean
+import cmdline_provenance as cmdprov
+import plotnine as p9
+</code>
+
 <h3>Data</h3>
 
 <p>In preparation for these lessons,you will need to download the following two Python scripts and four netCDF files
