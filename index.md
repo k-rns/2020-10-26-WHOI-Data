@@ -550,8 +550,8 @@ import cmdline_provenance as cmdprov
 import plotnine as p9
 print("Hello World!")
 </code></pre>
-
-<img src="fig/test_installs.png" alt="testing-installs">
+ 
+<img src="fig/test_installs.png" alt="testing-installs" width="80%">
 
 <h3>Data</h3>
 
