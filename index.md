@@ -551,7 +551,7 @@ import plotnine as p9
 print("Hello World!")
 </code></pre>
  
-<img src="fig/test_installs.png" alt="testing-installs" width="80%">
+<img src="fig/test_installs.png" alt="testing-installs" width="500">
 
 <h3>Data</h3>
 
