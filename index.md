@@ -526,9 +526,24 @@ during the workshop.
 
 <h3>Installing required packages</h3>
 
-<p>For the workshop we recommend installing the required packages using the Anaconda Prompt in windows (or Terminal in Mac/Linux).  But if you are already familiar with managing your environments, feel free to use the method of your choice as long as you install the packages below.</p>
+<p>For the workshop we recommend installing the required packages using the Anaconda Prompt in windows (or Terminal in Mac/Linux). </p>
 
-<p>To Install the packages in the base conda environment:</p>
+<strong>Install method 1: Make a new environment and launch jupyter notebooks using the new environment.</strong>
+<p>This method is more fail-safe than method 2.   As shown in the steps below you have to use a command line (Anaconda Prompt(win) Terminal(Mac/Linux) to launch jupyter notebook, not the graphical Anaconda Navigator.</p>
+<strong>Steps</strong>
+<ul>
+  <li>Open Anaconda Prompt (Windows) or Terminal(Mac/Linux)</li>
+  <li>Enter the following command to create a new environment called "pyaos-lesson"
+    <pre><code>conda create -n pyaos-lesson -c conda-forge jupyter xarray netCDF4 cartopy cmocean cmdline_provenance plotnine</code></pre>
+  </li>
+  <li>Enter the new environment you created.  After this command you should see "(pyaos-lesson)" at the start of your line.
+<pre><code>conda activate pyaos-lesson</code></pre>
+  </li>
+  <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.</li>
+  <pre><code>jupyter notebook</code></pre>
+</ul>
+
+<strong>Install Method 2: Using base environment</strong>
 
 <p>Enter <code>conda activate base</code> and press enter to execute. This makes sure you are in your base environment. It won't hurt anything if you already are in base and run it anyway.  You should see "(base)" at the beginning of your line.</p>
 
@@ -548,6 +563,7 @@ import numpy as np
 import cmocean
 import cmdline_provenance as cmdprov
 import plotnine as p9
+import pandas as pd
 print("Hello World!")
 </code></pre>
  
