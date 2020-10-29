@@ -539,8 +539,8 @@ during the workshop.
   <li>Enter the new environment you created.  After this command you should see "(pyaos-lesson)" at the start of your line.
 <pre><code>conda activate pyaos-lesson</code></pre>
   </li>
-  <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.</li>
-  <pre><code>jupyter notebook</code></pre>
+  <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.
+  <pre><code>jupyter notebook</code></pre></li>
   <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
 </ol>
 
@@ -560,7 +560,6 @@ during the workshop.
   <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
 </ol>
   
-  
 <h3>Testing your installs</h3>
 <p>To check your install was successful and you can use the packages within a notebook, you can enter the following into a jupyter notebook cell and run it. You should be able to execute the cell without an error.  It may take a few seconds then will show you "Hello World!" after the cell.
 
@@ -577,6 +576,31 @@ print("Hello World!")
 </code></pre>
  
 <a href="fig/test_installs.png"><img src="fig/test_installs.png" alt="testing-installs" width="800"></a>
+
+
+<div id="jupyter">
+  <h3>Launching Jupyter Notebook</h3>
+  <p>*if you have just followed the instructions to install packages and test them, you already have launched jupyter notebook and can use that.  You can follow these instructions if you don't already have a notebook running.</p>
+  <strong>Steps</strong>
+  <ol>
+      <li> Open an Anaconda Prompt(Win) or Terminal(Mac/Linux) and type the command "jupyter notebook". </li>
+    <li>Enter the environment wish to use.  After this command you should see the environment name "(pyaos-lesson)"  or "base" at the start of your line.</br>
+    <p>If you installed your packages using method 1:</p>
+            <pre><code>conda activate pyaos-lesson</code></pre>
+     </br>
+     <p>If you installed your packages using method 2:</p>
+        <pre><code>conda activate base</code></pre> 
+  </li>
+    <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.
+  <pre><code>jupyter notebook</code></pre>
+  <p>A browser window will open with your notebook in it. If you close the page and need to get back to it, you can copy and paste the link shown in your Anaconda Prompt/Terminal.  Or you can try the default address <a href="http://localhost:8888/">http://localhost:8888/</a>.
+</li>
+  
+  </ol>
+  
+<p>For a brief introduction to Jupyter Notebooks, please consult our <a href="https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/">Introduction to Jupyter Notebooks</a> page. If you installed your required packages using method 2, you can also launch jupyter notebook using the Anaconda Navigator (instead of command line) as shown in that lesson.</p>
+
+</div>
 
 <h3>Data</h3>
 
