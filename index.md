@@ -545,13 +545,18 @@ during the workshop.
 
 <strong>Install Method 2: Using base environment</strong>
 
-<p>Enter <code>conda activate base</code> and press enter to execute. This makes sure you are in your base environment. It won't hurt anything if you already are in base and run it anyway.  You should see "(base)" at the beginning of your line.</p>
-
-<p>Run the following commands one at a time.  It may take a few minutes to respond during this process.  You will be asked if you would like to install the packages after they are found.  Press Yes (y)</p>
+<strong>Steps</strong>
+<ul>
+  <li>Enter <code>conda activate base</code> and press enter to execute. This makes sure you are in your base environment. It won't hurt anything if you already are in base and run it anyway.  You should see "(base)" at the beginning of your line.</li>
+<li>Run the following commands one at a time.  It may take a few minutes to respond during this process.  You will be asked if you would like to install the packages after they are found.  Press Yes (y)
 <p><code>conda install jupyter xarray netCDF4 cartopy</code></p>
 <p><code>conda install -c conda-forge cmocean cmdline_provenance plotnine</code></p>
 <p>You should see messages for Preparing, Verifying, and Executing the "transaction" and end with a line that says "done"</p>
-
+  </li>
+  <li>Launch the jupyter nootebook using either Anaconda Navigator or command line using Anaconda Prompt(Windows) or Terminal(Mac/Linux).</li>
+  </ul>
+  
+  
 <h3>Testing your installs</h3>
 <p>To check your install was successful and you can use the packages within a notebook, you can enter the following into a jupyter notebook cell and run it. You should be able to execute the cell without an error.  It may take a few seconds then will show you "Hello World!" after the cell.
 
