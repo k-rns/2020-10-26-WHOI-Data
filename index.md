@@ -526,7 +526,7 @@ during the workshop.
 
 <h3>Installing required packages</h3>
 
-<p>For the workshop we recommend installing the required packages using the Anaconda Prompt in windows (or Terminal in Mac/Linux). </p>
+<p>For the workshop we recommend installing the required packages using the Anaconda Prompt in windows (or Terminal in Mac/Linux) as described in method 1 (below). If you try method 2 and that does not work for you, you can try method 1 at any time since it uses a separate environment we create just for this lesson.</p>
 
 <strong>Install method 1: Make a new environment and launch jupyter notebooks using the new environment.</strong>
 <p>This method is more fail-safe than method 2.   As shown in the steps below you have to use a command line (Anaconda Prompt(win) Terminal(Mac/Linux) to launch jupyter notebook, not the graphical Anaconda Navigator.</p>
@@ -544,20 +544,21 @@ during the workshop.
   <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
 </ul>
 
-<strong>Install Method 2: Using base environment</strong>
-<p>This method may be quite slow and you may encounter more issues than method 1. But if you have completed your installs with this method and your test works then you are all set for the workshp (See "Testing Your Installs" section Below).</p>
+<strong>Install Method 2: Using the base environment</strong>
+<p>This method may be quite slow for some people and you may encounter more issues than method 1. But if you have completed your installs with this method and your test works then you are all set for the workshp (See "Testing Your Installs" section Below).</p>
 
 <strong>Steps</strong>
-<ul>
+<ol>
   <li>Enter <code>conda activate base</code> and press enter to execute. This makes sure you are in your base environment. It won't hurt anything if you already are in base and run it anyway.  You should see "(base)" at the beginning of your line.</li>
-<li>Run the following commands one at a time.  It may take a few minutes to respond during this process.  You will be asked if you would like to install the packages after they are found.  Press Yes (y)
+  <li>
+  Run the following commands one at a time.  It may take a few minutes to respond during this process.  You will be asked if you would like to install the packages after they are found.  Press Yes (y)
 <p><code>conda install jupyter xarray netCDF4 cartopy</code></p>
 <p><code>conda install -c conda-forge cmocean cmdline_provenance plotnine</code></p>
 <p>You should see messages for Preparing, Verifying, and Executing the "transaction" and end with a line that says "done"</p>
   </li>
   <li>Launch the jupyter nootebook using either Anaconda Navigator or command line using Anaconda Prompt(Windows) or Terminal(Mac/Linux).</li>
   <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
-  </ul>
+</ol>
   
   
 <h3>Testing your installs</h3>
