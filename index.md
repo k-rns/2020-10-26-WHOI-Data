@@ -530,11 +530,12 @@ during the workshop.
 <div id="install-method-1">
   <strong>Install method 1: Make a new environment and launch jupyter notebooks using the new environment.</strong>
   <p>This method is more fail-safe than method 2.   As shown in the steps below you have to use a command line (Anaconda Prompt(win) Terminal(Mac/Linux) to launch jupyter notebook, not the graphical Anaconda Navigator.</p>
-  <strong>Steps</strong>
+  <b>Steps</b>
   <ol>
     <li>Open Anaconda Prompt (Windows) or Terminal(Mac/Linux)</li>
     <li><p>Enter the following command to create a new environment called "pyaos-lesson"</p>
        <pre><code>conda create -n pyaos-lesson -c conda-forge jupyter xarray netCDF4 cartopy cmocean cmdline_provenance plotnine</code></pre>
+    </li>
     <li>
         <p>You will be asked if you would like to install the packages after they are found.  Press Yes (y).</p>
         <p>You should see messages for Preparing, Verifying, and Executing the "transaction" and end with a line that says "done"</p>
@@ -545,7 +546,8 @@ during the workshop.
     </li>
     <li>
         <p>Launch the jupyter notebook with the following command. A new browser window should pop up with jupyter notebook in it.</p>
-        <pre><code>jupyter notebook</code></pre></li>
+        <pre><code>jupyter notebook</code></pre>
+    </li>
     <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
   </ol>
 </div>
@@ -554,7 +556,7 @@ during the workshop.
     <strong>Install Method 2: Using the base environment</strong>
     <p>This method may be quite slow for some people and you may encounter more issues than method 1. But if you have completed your installs with this method and your test works then you are all set for the worksohp (See "Testing Your Installs" section Below).</p>
 
-    <strong>Steps</strong>
+    <b>Steps</b>
     <ol>
       <li>Enter <code>conda activate base</code> and press enter to execute. This makes sure you are in your base environment. It won't hurt anything if you already are in base and run it anyway.  You should see "(base)" at the beginning of your line.</li>
       <li>
