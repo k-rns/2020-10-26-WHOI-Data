@@ -539,7 +539,7 @@ during the workshop.
   <li>Enter the new environment you created.  After this command you should see "(pyaos-lesson)" at the start of your line.
 <pre><code>conda activate pyaos-lesson</code></pre>
   </li>
-  <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.
+  <li>Launch the jupyter notebook with the following command. A new browser window should pop up with jupyter notebook in it.
   <pre><code>jupyter notebook</code></pre></li>
   <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
 </ol>
