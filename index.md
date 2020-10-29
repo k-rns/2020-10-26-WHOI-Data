@@ -575,8 +575,7 @@ during the workshop.
 	<h3>Testing your installs</h3>
 	<p>To check your install was successful and you can use the packages within a notebook, 
 	you can enter the following into a jupyter notebook cell and run it. You should be able to execute the cell without an error.  It may take a few seconds then will show you "Hello World!" after the cell.</p>
-	<pre>
-		<code>import xarray as xr
+	<pre><code>import xarray as xr
             import cartopy.crs as ccrs
             import matplotlib.pyplot as plt
             import numpy as np
@@ -584,9 +583,7 @@ during the workshop.
             import cmdline_provenance as cmdprov
             import plotnine as p9
             import pandas as pd
-            print("Hello World!")
-            </code>
-	</pre>
+            print("Hello World!")</code></pre>
 	<a href="fig/test_installs.png">
 		<img src="fig/test_installs.png" alt="testing-installs" width="800" />
 	</a>
@@ -610,9 +607,7 @@ during the workshop.
 		</li>
 		<li>
 			<p>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.</p>
-			<pre>
-				<code>jupyter notebook</code>
-			</pre>
+			<pre><code>jupyter notebook</code></pre>
 			<p>A browser window will open with your notebook in it. If you close the page and need to get back to it, you can copy and paste the link shown in your Anaconda Prompt/Terminal.  Or you can try the default address	<a href="http://localhost:8888/">http://localhost:8888/</a>.
 			</p>
 		</li>
