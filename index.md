@@ -541,6 +541,7 @@ during the workshop.
   </li>
   <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.</li>
   <pre><code>jupyter notebook</code></pre>
+  <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
 </ul>
 
 <strong>Install Method 2: Using base environment</strong>
@@ -555,6 +556,7 @@ during the workshop.
 <p>You should see messages for Preparing, Verifying, and Executing the "transaction" and end with a line that says "done"</p>
   </li>
   <li>Launch the jupyter nootebook using either Anaconda Navigator or command line using Anaconda Prompt(Windows) or Terminal(Mac/Linux).</li>
+  <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
   </ul>
   
   
