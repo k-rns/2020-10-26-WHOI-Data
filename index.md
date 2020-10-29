@@ -545,7 +545,7 @@ during the workshop.
 </ol>
 
 <strong>Install Method 2: Using the base environment</strong>
-<p>This method may be quite slow for some people and you may encounter more issues than method 1. But if you have completed your installs with this method and your test works then you are all set for the workshp (See "Testing Your Installs" section Below).</p>
+<p>This method may be quite slow for some people and you may encounter more issues than method 1. But if you have completed your installs with this method and your test works then you are all set for the worksohp (See "Testing Your Installs" section Below).</p>
 
 <strong>Steps</strong>
 <ol>
