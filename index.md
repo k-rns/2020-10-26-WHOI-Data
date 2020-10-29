@@ -527,7 +527,7 @@ during the workshop.
 <h3>Installing required packages</h3>
 
 <p>For the workshop we recommend installing the required packages using the Anaconda Prompt in windows (or Terminal in Mac/Linux) as described in method 1 (below). If you try method 2 and that does not work for you, you can try method 1 at any time since it uses a separate environment we create just for this lesson.</p>
-<div>
+<div id="install-method-1">
   <strong>Install method 1: Make a new environment and launch jupyter notebooks using the new environment.</strong>
   <p>This method is more fail-safe than method 2.   As shown in the steps below you have to use a command line (Anaconda Prompt(win) Terminal(Mac/Linux) to launch jupyter notebook, not the graphical Anaconda Navigator.</p>
   <strong>Steps</strong>
@@ -550,7 +550,7 @@ during the workshop.
   </ol>
 </div>
 
-<div>
+<div id="install-method-2">
     <strong>Install Method 2: Using the base environment</strong>
     <p>This method may be quite slow for some people and you may encounter more issues than method 1. But if you have completed your installs with this method and your test works then you are all set for the worksohp (See "Testing Your Installs" section Below).</p>
 
