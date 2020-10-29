@@ -535,7 +535,10 @@ during the workshop.
   <li>Open Anaconda Prompt (Windows) or Terminal(Mac/Linux)</li>
   <li>Enter the following command to create a new environment called "pyaos-lesson"
     <pre><code>conda create -n pyaos-lesson -c conda-forge jupyter xarray netCDF4 cartopy cmocean cmdline_provenance plotnine</code></pre>
+  <li><p>You will be asked if you would like to install the packages after they are found.  Press Yes (y).</p>
+  <p>You should see messages for Preparing, Verifying, and Executing the "transaction" and end with a line that says "done"</p>
   </li>
+
   <li>Enter the new environment you created.  After this command you should see "(pyaos-lesson)" at the start of your line.
 <pre><code>conda activate pyaos-lesson</code></pre>
   </li>
@@ -583,18 +586,18 @@ print("Hello World!")
   <p>*if you have just followed the instructions to install packages and test them, you already have launched jupyter notebook and can use that.  You can follow these instructions if you don't already have a notebook running.</p>
   <strong>Steps</strong>
   <ol>
-      <li> Open an Anaconda Prompt(Win) or Terminal(Mac/Linux) and type the command "jupyter notebook". </li>
+    <li> Open an Anaconda Prompt(Win) or Terminal(Mac/Linux) and type the command "jupyter notebook". </li>
     <li>Enter the environment wish to use.  After this command you should see the environment name "(pyaos-lesson)"  or "base" at the start of your line.</br>
     <p>If you installed your packages using method 1:</p>
             <pre><code>conda activate pyaos-lesson</code></pre>
      </br>
      <p>If you installed your packages using method 2:</p>
         <pre><code>conda activate base</code></pre> 
-  </li>
+    </li>
     <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.
-  <pre><code>jupyter notebook</code></pre>
-  <p>A browser window will open with your notebook in it. If you close the page and need to get back to it, you can copy and paste the link shown in your Anaconda Prompt/Terminal.  Or you can try the default address <a href="http://localhost:8888/">http://localhost:8888/</a>.
-</li>
+     <pre><code>jupyter notebook</code></pre>
+     <p>A browser window will open with your notebook in it. If you close the page and need to get back to it, you can copy and paste the link shown in your Anaconda Prompt/Terminal.  Or you can try the default address <a href="http://localhost:8888/">http://localhost:8888/</a>.
+     </li>
   
   </ol>
   
