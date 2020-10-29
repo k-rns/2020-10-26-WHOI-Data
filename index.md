@@ -581,22 +581,21 @@ print("Hello World!")
 <a href="fig/test_installs.png"><img src="fig/test_installs.png" alt="testing-installs" width="800"></a>
 
 
-<div id="jupyter">
   <h3>Launching Jupyter Notebook</h3>
   <p>*if you have just followed the instructions to install packages and test them, you already have launched jupyter notebook and can use that.  You can follow these instructions if you don't already have a notebook running.</p>
   <strong>Steps</strong>
   <ol>
     <li> Open an Anaconda Prompt(Win) or Terminal(Mac/Linux) and type the command "jupyter notebook". </li>
-    <li>Enter the environment wish to use.  After this command you should see the environment name "(pyaos-lesson)"  or "base" at the start of your line.
-    <p>If you installed your packages using method 1:
+    <li><p>Enter the environment wish to use.  After this command you should see the environment name "(pyaos-lesson)"  or "base" at the start of your line.</p>
+      <div><p>If you installed your packages using method 1:</p>
             <pre><code>conda activate pyaos-lesson</code></pre>
-     </p>
-     <p>If you installed your packages using method 2:
+     </div>
+      <div><p>If you installed your packages using method 2:</p>
         <pre><code>conda activate base</code></pre> 
         
-     </p>
+     </div>
     </li>
-    <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.
+    <li><p>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.</p>
      <pre><code>jupyter notebook</code></pre>
      <p>A browser window will open with your notebook in it. If you close the page and need to get back to it, you can copy and paste the link shown in your Anaconda Prompt/Terminal.  Or you can try the default address <a href="http://localhost:8888/">http://localhost:8888/</a>.
      </li>
@@ -605,7 +604,6 @@ print("Hello World!")
   
 <p>For a brief introduction to Jupyter Notebooks, please consult our <a href="https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/">Introduction to Jupyter Notebooks</a> page. If you installed your required packages using method 2, you can also launch jupyter notebook using the Anaconda Navigator (instead of command line) as shown in that lesson.</p>
 
-</div>
 
 <h3>Data</h3>
 
