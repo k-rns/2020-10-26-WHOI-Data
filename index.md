@@ -531,7 +531,7 @@ during the workshop.
 <strong>Install method 1: Make a new environment and launch jupyter notebooks using the new environment.</strong>
 <p>This method is more fail-safe than method 2.   As shown in the steps below you have to use a command line (Anaconda Prompt(win) Terminal(Mac/Linux) to launch jupyter notebook, not the graphical Anaconda Navigator.</p>
 <strong>Steps</strong>
-<ul>
+<ol>
   <li>Open Anaconda Prompt (Windows) or Terminal(Mac/Linux)</li>
   <li>Enter the following command to create a new environment called "pyaos-lesson"
     <pre><code>conda create -n pyaos-lesson -c conda-forge jupyter xarray netCDF4 cartopy cmocean cmdline_provenance plotnine</code></pre>
@@ -542,7 +542,7 @@ during the workshop.
   <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.</li>
   <pre><code>jupyter notebook</code></pre>
   <li>Test your installs worked. See "Testing Your Installs" section Below.</li>
-</ul>
+</ol>
 
 <strong>Install Method 2: Using the base environment</strong>
 <p>This method may be quite slow for some people and you may encounter more issues than method 1. But if you have completed your installs with this method and your test works then you are all set for the workshp (See "Testing Your Installs" section Below).</p>
@@ -588,7 +588,7 @@ and place them in a new folder/directory:</p>
   <li>Download <a href="https://carpentrieslab.github.io/python-aos-lesson/code/script_template.py">script_template.py</a> and <a href="https://carpentrieslab.github.io/python-aos-lesson/code/plot_precipitation_climatology.py">plot_precipitation_climatology.py</a> and move them into that folder.</li>
   <li>Make a new folder in your `data-carpentry` folder called `data` if you haven't already.</li>
   <li>Download the following files and place them in that folder:</li>
-<ul>
+   <ul>
      <li><a href="https://carpentrieslab.github.io/python-aos-lesson/data/pr_Amon_ACCESS1-3_historical_r1i1p1_200101-200512.nc">pr_access_file</a></li>
      <li><a href="https://carpentrieslab.github.io/python-aos-lesson/data/pr_Amon_CSIRO-Mk3-6-0_historical_r1i1p1_200101-200512.nc">pr_csiro_file</a></li>
      <li><a href="https://carpentrieslab.github.io/python-aos-lesson/data/sftlf_fx_ACCESS1-3_historical_r0i0p0.nc">sftlf_access_file</a></li>
