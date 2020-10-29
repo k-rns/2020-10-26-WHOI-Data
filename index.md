@@ -612,7 +612,7 @@ during the workshop.
 			</p>
 		</li>
 	</ol>
-	<p>For a brief introduction to Jupyter Notebooks, please consult our <a href="https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/">Introduction to Jupyter Notebooks</a> page. If you installed your required packages using method 2, you can also launch jupyter notebook using the Anaconda Navigator (instead of command line) as shown in that lesson.		
+	<p>For a brief introduction to Jupyter Notebooks, please consult our <a href="https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/">Introduction to Jupyter Notebooks</a> page. If you installed your required packages using <a href="#install-method-2">method 2</a>, you can also launch jupyter notebook using the Anaconda Navigator (instead of command line) as shown in that lesson.		
 	</p>
 </div>
 
