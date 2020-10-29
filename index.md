@@ -576,14 +576,14 @@ during the workshop.
 	<p>To check your install was successful and you can use the packages within a notebook, 
 	you can enter the following into a jupyter notebook cell and run it. You should be able to execute the cell without an error.  It may take a few seconds then will show you "Hello World!" after the cell.</p>
 	<pre><code>import xarray as xr
-            import cartopy.crs as ccrs
-            import matplotlib.pyplot as plt
-            import numpy as np
-            import cmocean
-            import cmdline_provenance as cmdprov
-            import plotnine as p9
-            import pandas as pd
-            print("Hello World!")</code></pre>
+import cartopy.crs as ccrs
+import matplotlib.pyplot as plt
+import numpy as np
+import cmocean
+import cmdline_provenance as cmdprov
+import plotnine as p9
+import pandas as pd
+ print("Hello World!")</code></pre>
 	<a href="fig/test_installs.png">
 		<img src="fig/test_installs.png" alt="testing-installs" width="800" />
 	</a>
