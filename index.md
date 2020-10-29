@@ -535,9 +535,7 @@ during the workshop.
 			<li>Open Anaconda Prompt (Windows) or Terminal(Mac/Linux)</li>
 			<li>
 				<p>Enter the following command to create a new environment called "pyaos-lesson"</p>
-				<pre>
-					<code>conda create -n pyaos-lesson -c conda-forge jupyter xarray netCDF4 cartopy cmocean cmdline_provenance plotnine</code>
-				</pre>
+				<pre><code>conda create -n pyaos-lesson -c conda-forge jupyter xarray netCDF4 cartopy cmocean cmdline_provenance plotnine</code></pre>
 			</li>
 			<li>
 				<p>You will be asked if you would like to install the packages after they are found.  Press Yes (y).</p>
@@ -545,15 +543,11 @@ during the workshop.
 			</li>
 			<li>
 				<p>Enter the new environment you created.  After this command you should see "(pyaos-lesson)" at the start of your line.</p>
-				<pre>
-					<code>conda activate pyaos-lesson</code>
-				</pre>
+				<pre><code>conda activate pyaos-lesson</code></pre>
 			</li>
 			<li>
 				<p>Launch the jupyter notebook with the following command. A new browser window should pop up with jupyter notebook in it.</p>
-				<pre>
-					<code>jupyter notebook</code>
-				</pre>
+				<pre><code>jupyter notebook</code></pre>
 			</li>
 			<li>Test your installs worked. See "Testing Your Installs" section Below.</li>
 		</ol>
@@ -563,27 +557,12 @@ during the workshop.
 		<p>This method may be quite slow for some people and you may encounter more issues than method 1. But if you have completed your installs with this method and your test works then you are all set for the worksohp (See "Testing Your Installs" section Below).</p>
 		<b>Steps</b>
 		<ol>
-			<li>Enter 
-				
-				
-				
-				<code>conda activate base</code> and press enter to execute. This makes sure you are in your base environment. It won't hurt anything if you already are in base and run it anyway.  You should see "(base)" at the beginning of your line.
-			
-			
-			
+			<li>Enter <code>conda activate base</code> and press enter to execute. This makes sure you are in your base environment. It won't hurt anything if you already are in base and run it anyway.  You should see "(base)" at the beginning of your line.	
 			</li>
 			<li>
-      Run the following commands one at a time.  It may take a few minutes to respond during this process.  You will be asked if you would like to install the packages after they are found.  Press Yes (y)
-    
-				
-				
-				
-				<p>
-					<code>conda install jupyter xarray netCDF4 cartopy</code>
-				</p>
-				<p>
-					<code>conda install -c conda-forge cmocean cmdline_provenance plotnine</code>
-				</p>
+        <p>Run the following commands one at a time.  It may take a few minutes to respond during this process.  You will be asked if you would like to install the packages after they are found.  Press Yes (y).		</p>
+				<p><code>conda install jupyter xarray netCDF4 cartopy</code></p>
+				<p><code>conda install -c conda-forge cmocean cmdline_provenance plotnine</code></p>
 				<p>You should see messages for Preparing, Verifying, and Executing the "transaction" and end with a line that says "done"</p>
 			</li>
 			<li>Launch the jupyter nootebook using either Anaconda Navigator or command line using Anaconda Prompt(Windows) or Terminal(Mac/Linux).</li>
@@ -622,15 +601,11 @@ during the workshop.
 			<p>Enter the environment wish to use.  After this command you should see the environment name "(pyaos-lesson)"  or "base" at the start of your line.</p>
 			<div>
 				<p>If you installed your packages using method 1:</p>
-				<pre>
-					<code>conda activate pyaos-lesson</code>
-				</pre>
+				<pre><code>conda activate pyaos-lesson</code></pre>
 			</div>
 			<div>
 				<p>If you installed your packages using method 2:</p>
-				<pre>
-					<code>conda activate base</code>
-				</pre>
+				<pre><code>conda activate base</code></pre>
 			</div>
 		</li>
 		<li>
@@ -639,16 +614,10 @@ during the workshop.
 				<code>jupyter notebook</code>
 			</pre>
 			<p>A browser window will open with your notebook in it. If you close the page and need to get back to it, you can copy and paste the link shown in your Anaconda Prompt/Terminal.  Or you can try the default address	<a href="http://localhost:8888/">http://localhost:8888/</a>.
-			
 			</p>
 		</li>
 	</ol>
-	<p>For a brief introduction to Jupyter Notebooks, please consult our 
-			
-			
-		<a href="https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/">Introduction to Jupyter Notebooks</a> page. If you installed your required packages using method 2, you can also launch jupyter notebook using the Anaconda Navigator (instead of command line) as shown in that lesson.
-		
-		
+	<p>For a brief introduction to Jupyter Notebooks, please consult our <a href="https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/">Introduction to Jupyter Notebooks</a> page. If you installed your required packages using method 2, you can also launch jupyter notebook using the Anaconda Navigator (instead of command line) as shown in that lesson.		
 	</p>
 </div>
 
