@@ -587,12 +587,14 @@ print("Hello World!")
   <strong>Steps</strong>
   <ol>
     <li> Open an Anaconda Prompt(Win) or Terminal(Mac/Linux) and type the command "jupyter notebook". </li>
-    <li>Enter the environment wish to use.  After this command you should see the environment name "(pyaos-lesson)"  or "base" at the start of your line.</br>
-    <p>If you installed your packages using method 1:</p>
+    <li>Enter the environment wish to use.  After this command you should see the environment name "(pyaos-lesson)"  or "base" at the start of your line.
+    <p>If you installed your packages using method 1:
             <pre><code>conda activate pyaos-lesson</code></pre>
-     </br>
-     <p>If you installed your packages using method 2:</p>
+     </p>
+     <p>If you installed your packages using method 2:
         <pre><code>conda activate base</code></pre> 
+        
+     </p>
     </li>
     <li>Launch the jupyter notebook with the following command. A new browser window should pop up right into your notebook.
      <pre><code>jupyter notebook</code></pre>
