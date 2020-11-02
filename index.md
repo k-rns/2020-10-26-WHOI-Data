@@ -593,7 +593,7 @@ import pandas as pd
 	<p>*if you have just followed the instructions to install packages and test them, you already have launched jupyter notebook and can use that.  You can follow these instructions if you don't already have a notebook running.</p>
 	<strong>Steps</strong>
 	<ol>
-		<li> Open an Anaconda Prompt(Win) or Terminal(Mac/Linux) and type the command "jupyter notebook". </li>
+		<li> Open an Anaconda Prompt(Win) or Terminal(Mac/Linux). </li>
 		<li>
 			<p>Enter the environment wish to use.  After this command you should see the environment name "(pyaos-lesson)"  or "base" at the start of your line.</p>
 			<div>
